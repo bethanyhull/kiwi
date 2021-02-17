@@ -1,0 +1,43 @@
+.navbar {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    
+
+    background-image: url(assets/brooke-lark-menu-crop.jpg);
+    background-position: top left;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: auto 100%; /* Resize the background image to cover the entire container */
+}
+
+.navbar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.navbar ul {
+    margin:0;
+    padding:0;
+    text-align: center;
+    list-style:none; 
+}
+
+.navbar button {
+    width: 250px;
+    max-width: 250px;
+}
+
+.navbar button:active {
+    background: rgba(120, 130, 42, 0.45);
+}
+
+.navbar h1 {
+    padding: 1rem;
+    color: var(--green);
+}

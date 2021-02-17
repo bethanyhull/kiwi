@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="landingStyle.css">
 </head>
 <body>
-    <div></div>
-    <div>
+    <div class="landing-spacer"></div>
+    <div class="landing-text">
         <h1>Kiwi</h1>
         <p>A modern recipe manager for all your favorite recipes.</p>
         <div>
-            <button class="button1">Register</button>
-            <button>Sign in</button>
+            <a href="signin.html"><button class="button1">Sign in</button></a>
+            <a href="register.html"><button class="button2">Register</button></a>
+            
         </div>
     </div>
     

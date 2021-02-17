@@ -1,0 +1,33 @@
+.main-div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+}
+
+.spacer {
+  flex: 1;
+  background-image: url(assets/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100%; /* Resize the background image to cover the entire container */
+}
+
+a {
+  align-self: stretch;
+  text-align: right;
+  padding: .2rem;
+}
+
+.sign-in-col {
+  flex: 1;
+}
+
+@media (max-width: 1300px) {
+  .spacer {
+  background-size: auto 100%; /* Resize the background image to cover the entire container */
+}
+}
