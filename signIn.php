@@ -34,7 +34,7 @@
             />
           </div>
           <a href="#">Forget your password?</a>
-          <input type="submit" class="button1 button" value="Sign in" />
+          <a href="recipeLibrary.html"><input type="submit" class="button1 button" value="Sign in" /></a>
         </form>
       </div>
       <div class="spacer">

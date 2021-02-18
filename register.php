@@ -84,9 +84,7 @@
               />
             </div>
           </div>
-         
-          
-          <input type="submit" class="button1 button" value="Register" />
+          <a href="signIn.html"><input type="submit" class="button1 button" value="Register" /></a>
         </form>
       </div>
       <div class="spacer">
