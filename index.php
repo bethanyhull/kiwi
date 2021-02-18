@@ -13,7 +13,7 @@
         <h1>Kiwi</h1>
         <p>A modern recipe manager for all your favorite recipes.</p>
         <div>
-            <a href="signin.html"><button class="button1">Sign in</button></a>
+            <a href="signIn.html"><button class="button1">Sign in</button></a>
             <a href="register.html"><button class="button2">Register</button></a>
             
         </div>
