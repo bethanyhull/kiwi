@@ -1,10 +1,9 @@
 <?php
 session_start();
-// if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
-//    header('Location: signIn.php');
-//    exit;
-// }
-echo "<pre>" . print_r($_SESSION,1) . "</pre>";
+if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
+   header('Location: signIn.php');
+   exit;
+}
 ?>
 <html lang="en">
 <?php include "head.php"; ?>
@@ -22,8 +21,6 @@ echo "<pre>" . print_r($_SESSION,1) . "</pre>";
     <?php
     require('dao.php');
     $dao = new Dao();
-    $recipes = $dao->getRecipeLibrary($_SESSION['user_id']);
-    echo "<pre>" . print_r($recipes, 1) . "</pre>";
     echo '<div class="recipe-cards">';
 
     foreach ($recipes as $recipe) {

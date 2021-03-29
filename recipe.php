@@ -1,10 +1,10 @@
 <?php
 session_start();
-// if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
-//    header('Location: signIn.php');
-//    exit;
-// }
-echo "<pre>" . print_r($_SESSION,1) . "</pre>";
+if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
+   header('Location: signIn.php');
+   exit;
+}
+
 ?>
 <html lang="en">
 <?php include "head.php"; ?>

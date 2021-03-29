@@ -2,13 +2,7 @@
   session_start();
 ?>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiwi: Recipe Manager</title>
-    <link rel="stylesheet" href="./style/css/materialize.css">
-    <link rel="stylesheet" href="./style/css/style.css">
-</head>
+<?php include "head.php"; ?>
 <body class="landing">
     <div class="landing-spacer"></div>
     <div class="landing-text">

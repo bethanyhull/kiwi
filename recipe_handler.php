@@ -11,6 +11,10 @@ $cook_time = $_POST['cook-time'];
 $directions = $_POST['directions'];
 $recipe_image = $_POST['recipe_image'];
 
+if($recipe_image == "") {
+    $recipe_image == "/assets/b_w_kiwi.jpeg";
+}
+
 
 // check the email and password
 require_once 'dao.php';
@@ -28,11 +32,4 @@ while($_POST['ingredient' . $index]){
    header("Location: recipe.php?id={$recipe_id}");
    exit;
 
-// if ($_SESSION['authenticated']) {
-//    header('Location: recipeLibrary.php');
-//    exit;
-// } else {
-//    header('Location: signIn.php');
-//    exit;
-// }
 ?>

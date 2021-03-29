@@ -2,13 +2,7 @@
   session_start();
 ?>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiwi: Recipe Manager</title>
-    <link rel="stylesheet" href="./style/css/materialize.css">
-    <link rel="stylesheet" href="./style/css/style.css">
-</head>
+<?php include "head.php"; ?>
   <body>
     <div class="sign-in">
       <div class="column-centered sign-in-col">
@@ -35,8 +29,8 @@
               required
             />
           </div>
-          <a href="#">Forget your password?</a>
-          <a href="recipeLibrary.html"><input type="submit" class="btn-large" value="Sign in" /></a>
+          <a href="register.php">Don't have an account? Sign up here</a>
+          <input type="submit" class="btn-large" value="Sign in" />
         </form>
       </div>
       <div class="spacer">

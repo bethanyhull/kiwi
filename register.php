@@ -59,7 +59,7 @@
               />
             </div>
           </div>
-          <a href="signIn.html"><input type="submit" class="btn-large" value="Register" /></a>
+          <input type="submit" class="btn-large" value="Register" />
         </form>
       </div>
       <div class="spacer">
