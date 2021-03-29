@@ -19,7 +19,7 @@ echo "<pre>" . print_r($_SESSION,1) . "</pre>";
     </div>
     <?php 
     echo "<h1>Hello!!!</h1>";
-    require_once 'Dao.php';
+    require('Dao.php');
     $dao = new Dao();
     $recipes = $dao->getRecipeLibrary($_SESSION['user_id']);
     echo "<pre>" . print_r($recipes, 1) . "</pre>";
