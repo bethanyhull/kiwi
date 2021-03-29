@@ -27,7 +27,7 @@
    $_SESSION['errors']['email_found'] = true;
   }
 
-  if (count($_SESSION['errors']) > 0) {
+  if ($_SESSION['errors'] == null) {
    $_SESSION['register']['email'] = $email;
    $_SESSION['register']['name'] = $name;
      $dao->logger->LogDebug(print_r($_SESSION,1));
