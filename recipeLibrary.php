@@ -1,8 +1,8 @@
 <?php
 session_start();
 if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
-   header('Location: signIn.php');
-   exit;
+  header('Location: signIn.php');
+  exit;
 }
 ?>
 <html lang="en">
@@ -12,15 +12,14 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
   <?php include "navbar.php"; ?>
   <div class="main library">
     <div class="library-top-bar">
-
       <h1>Recipe Library</h1>
       <input type="text" />
     </div>
-    
 
     <?php
     require('dao.php');
     $dao = new Dao();
+    $recipes = $dao->getRecipeLibrary($_SESSION['user_id']);
     echo '<div class="recipe-cards">';
 
     foreach ($recipes as $recipe) {
