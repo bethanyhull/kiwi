@@ -25,7 +25,8 @@ while($_POST['ingredient' . $index]){
     $index++;
 };
 
-// $_SESSION['authenticated'] = $dao->userExist($email, $password);
+   header("Location: recipe.php?id={$recipe_id}");
+   exit;
 
 // if ($_SESSION['authenticated']) {
 //    header('Location: recipeLibrary.php');

@@ -12,6 +12,7 @@
     <?php include "navbar.php"; ?>
     <div class="main library">
       <div class="library-top-bar">
+      
         <h1>Recipe Library</h1>
         <input type="text" />
       </div>
@@ -20,11 +21,9 @@
     require_once 'Dao.php';
     $dao = new Dao();
     $recipes = $dao->getRecipeLibrary($_SESSION['user_id']);
-?>
+    echo "<pre>" . print_r($recipes,1) . "</pre>";     
+      echo '<div class="recipe-cards">';
 
-      <div class="recipe-cards">
-
-      <?php
           foreach ($recipes as $recipe) {
             echo
             "<a href='recipe.php?id={$recipe['recipe_id']}'>" .

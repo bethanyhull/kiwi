@@ -56,12 +56,12 @@
         echo
         '<p>' . htmlspecialchars($ingredient['ingredient']) . '</p>';
       };
-      '</div>
+      echo '</div>
       <h4 class="recipe-info-header">Directions</h4>
       <div class="recipe-info">
         <p>' . htmlspecialchars($recipe['directions']) . '</p>
       </div>
-    </div>'
+    </div>';
     ?>
       <footer>
           <p>&copy; 2021 Bethany Hull</p>
