@@ -176,18 +176,18 @@ public $db = 'heroku_319ce41dbdbdac8';
     return $rows;
   }
 
-// public function getRecipeLibrary($user_id)
-// {
-//   $connection = $this->getConnection();
-//   try {
-//     $rows = $connection->query("select recipe_id, name, recipe_image from recipes where user_id = $user_id", PDO::FETCH_ASSOC);
+public function getRecipeLibrary($user_id)
+{
+  $connection = $this->getConnection();
+  try {
+    $rows = $connection->query("select recipe_id, name, recipe_image from recipes where user_id = $user_id", PDO::FETCH_ASSOC);
     
-//   } catch (Exception $e) {
-//     echo print_r($e, 1);
-//     exit;
-//   }
-//   return $rows;
-// }
+  } catch (Exception $e) {
+    echo print_r($e, 1);
+    exit;
+  }
+  return $rows;
+}
 
 public function getIngredients($recipe_id)
 {
@@ -236,20 +236,20 @@ public function getRecentRecipeID($user_id)
 }
 
 
-public function getRecipeLibrary($user_id)
-{
-  $this->logger->LogInfo("user_id = " . $user_id);
-  $connection = $this->getConnection();
-  try {
-    $q = $connection->prepare("select recipe_id, name, recipe_image from recipes where user_id = :user_id");
-    $q->bindParam(":user_id", $user_id);
-    $q->execute();
-    $rows = $q->fetch();
-    $this->logger->LogInfo("recipes found!" . print_r($rows, 1));
-  } catch (Exception $e) {
-    echo print_r($e, 1);
-    exit;
-  }
-  return $rows;
-}
+// public function getRecipeLibrary($user_id)
+// {
+//   $this->logger->LogInfo("user_id = " . $user_id);
+//   $connection = $this->getConnection();
+//   try {
+//     $q = $connection->prepare("select recipe_id, name, recipe_image from recipes where user_id = :user_id");
+//     $q->bindParam(":user_id", $user_id);
+//     $q->execute();
+//     $rows = $q->fetch();
+//     $this->logger->LogInfo("recipes found!" . print_r($rows, 1));
+//   } catch (Exception $e) {
+//     echo print_r($e, 1);
+//     exit;
+//   }
+//   return $rows;
+// }
 }

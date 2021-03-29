@@ -12,7 +12,7 @@ echo "<pre>" . print_r($_SESSION,1) . "</pre>";
 <body>
   <?php include "navbar.php"; ?>
   <?php
-  require_once 'Dao.php';
+  require('dao.php');
   $dao = new Dao();
   $recipe = $dao->getRecipe($_GET['id']);
   $ingredients = $dao->getIngredients($_GET['id']);
