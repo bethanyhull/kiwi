@@ -4,7 +4,7 @@ session_start();
 //    header('Location: signIn.php');
 //    exit;
 // }
-//echo "<pre>" . print_r($_SESSION,1) . "</pre>";
+echo "<pre>" . print_r($_SESSION,1) . "</pre>";
 ?>
 <html lang="en">
 <?php include "head.php"; ?>

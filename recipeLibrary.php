@@ -4,7 +4,7 @@ session_start();
 //    header('Location: signIn.php');
 //    exit;
 // }
-//echo "<pre>" . print_r($_SESSION,1) . "</pre>";
+echo "<pre>" . print_r($_SESSION,1) . "</pre>";
 ?>
 <html lang="en">
 <?php include "head.php"; ?>
@@ -24,7 +24,7 @@ session_start();
     $recipes = $dao->getRecipeLibrary($_SESSION['user_id']);
     echo "<pre>" . print_r($recipes, 1) . "</pre>";
     ?>
-    
+
     <?php
     require_once 'Dao.php';
     $dao = new Dao();

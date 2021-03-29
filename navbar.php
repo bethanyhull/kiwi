@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <ul id="slide-out" class="sidenav sidenav-fixed" >
     <li><h1>Kiwi</h1>
       <img
