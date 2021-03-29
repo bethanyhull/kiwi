@@ -165,7 +165,11 @@ html, body {
         display: flex;
         flex-direction: column;
         
-      
+     img {
+        width:50%;
+        height: auto;
+        object-fit:cover;
+     } 
       
       h1, .h1{
         font-weight: bold;
@@ -297,7 +301,7 @@ html, body {
     flex-direction: column;
     align-items: center;
    
-    background-image: url(assets/brooke-lark-menu-crop.jpg);
+    background-image: url(/assets/brooke-lark-menu-crop.jpg);
     background-position: top left;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: auto 100%; /* Resize the background image to cover the entire container */
@@ -307,7 +311,8 @@ html, body {
         height: 150px;
         border-radius: 50%;
         padding: 1rem;
-    }
+        object-fit: cover;
+     }
     
     h1 {
         padding: 1rem;

@@ -1,7 +1,4 @@
-<?php
-  session_start();
 
-?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,10 +38,7 @@
         </form>
       </div>
       <div class="spacer">
-        <!-- <img
-          src="./assets/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg"
-          alt="avocado toast"
-        /> -->
+
       </div>
     </div>
   </body>

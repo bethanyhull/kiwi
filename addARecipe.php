@@ -51,9 +51,9 @@
           </div>
         </div>
         <div class="ingredient-title"><h4 class="recipe-info-header">Ingredients</h4>
-          <button  id="addIngredient" class="button1">
-            <i class="fa fa-plus" aria-hidden="true"></i>
-          </button></div>
+          <span  id="addIngredient" class="btn">
+            <i class="fas fa-plus" aria-hidden="true"></i>
+          </span></div>
         
         <div class="recipe-info ingredients">
           <input

@@ -189,21 +189,18 @@ public function getRecipeLibrary($user_id)
   return $rows;
 }
 
-// public function getRecipe($recipe_id)
-// {
-//   $this->logger->LogInfo("recipe_id = " . $recipe_id);
-//   $connection = $this->getConnection();
-//   try {
-//     $row = $connection->query("select * from recipes where recipe_id = $recipe_id", PDO::FETCH_ASSOC);
+public function getIngredients($recipe_id)
+{
+  $connection = $this->getConnection();
+  try {
+    $rows = $connection->query("select ingredient from ingredients where recipe_id = $recipe_id", PDO::FETCH_ASSOC);
+  } catch (Exception $e) {
+    echo print_r($e, 1);
+    exit;
+  }
+  return $rows;
+}
 
-//     $this->logger->LogInfo("recipe = " . $row);
-    
-//   } catch (Exception $e) {
-//     echo print_r($e, 1);
-//     exit;
-//   }
-//   return $row;
-// }
 
 public function getRecipe($recipe_id)
 {
@@ -221,6 +218,23 @@ public function getRecipe($recipe_id)
   }
   return $rows;
 }
+
+public function getRecentRecipeID($user_id)
+{
+  $connection = $this->getConnection();
+  try {
+    $q = $connection->prepare("SELECT recipe_id FROM recipes WHERE user_id = :user_id ORDER BY created_at DESC LIMIT 1");
+    $q->bindParam(":user_id", $user_id);
+    $q->execute();
+    $rows = $q->fetch();
+    $this->logger->LogInfo("recipe_id found!" . print_r($rows, 1));
+  } catch (Exception $e) {
+    echo print_r($e, 1);
+    exit;
+  }
+  return $rows['recipe_id'];
+}
+
 
 // public function getRecipeLibrary($user_id)
 // {

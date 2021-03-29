@@ -14,11 +14,14 @@
     require_once 'Dao.php';
     $dao = new Dao();
     $recipe = $dao->getRecipe($_GET['id']);
+    $ingredients = $dao->getIngredients($_GET['id']);
+
 ?>
     <div class="main">
     <?php
     echo
       '<div class="recipe">
+      <img src="' . htmlspecialchars($recipe['recipe_image']) . '" alt=' . htmlspecialchars($recipe['name']) . ' />
       <h1>' . htmlspecialchars($recipe['name']) . '</h1>
       <p class="notes">' . htmlspecialchars($recipe['notes']) . '</p>
       <div class="info-bar">
@@ -48,12 +51,12 @@
 
       </div>
       <h4 class="recipe-info-header">Ingredients</h4>
-      <div class="recipe-info">
-        <p>1 ingredient</p>
-        <p>1 ingredient</p>
-        <p>1 ingredient</p>
-        <p>1 ingredient</p>
-      </div>
+      <div class="recipe-info">';
+      foreach ($ingredients as $ingredient) {
+        echo
+        '<p>' . htmlspecialchars($ingredient['ingredient']) . '</p>';
+      };
+      '</div>
       <h4 class="recipe-info-header">Directions</h4>
       <div class="recipe-info">
         <p>' . htmlspecialchars($recipe['directions']) . '</p>

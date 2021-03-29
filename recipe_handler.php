@@ -16,6 +16,15 @@ $recipe_image = $_POST['recipe_image'];
 require_once 'dao.php';
 $dao = new Dao();
 $dao->insertRecipe($user_id, $name, $notes, $servings, $prep_time, $cook_time, $directions, $recipe_image);
+$recipe_id = $dao->getRecentRecipeID($user_id);
+
+$index = 1;
+
+while($_POST['ingredient' . $index]){
+    $dao->insertIngredient(($_POST['ingredient' . $index]), $recipe_id);
+    $index++;
+};
+
 // $_SESSION['authenticated'] = $dao->userExist($email, $password);
 
 // if ($_SESSION['authenticated']) {
@@ -25,3 +34,4 @@ $dao->insertRecipe($user_id, $name, $notes, $servings, $prep_time, $cook_time, $
 //    header('Location: signIn.php');
 //    exit;
 // }
+?>

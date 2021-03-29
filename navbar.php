@@ -1,7 +1,7 @@
 <ul id="slide-out" class="sidenav sidenav-fixed" >
     <li><h1>Kiwi</h1>
       <img
-        src="https://i0.wp.com/www.repol.copl.ulaval.ca/wp-content/uploads/2019/01/default-user-icon.jpg"
+        src="https://thumbs.dreamstime.com/t/kiwi-half-27975390.jpg"
         alt="user"
       /></li>
       <a href="recipeLibrary.php"

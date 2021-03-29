@@ -29,7 +29,7 @@
             echo
             "<a href='recipe.php?id={$recipe['recipe_id']}'>" .
           "<div class='recipe-card'>" .
-            "<img src='{$recipe['recipe_image']}' alt=" . htmlspecialchars($recipe['name']) . " />" .
+            "<img src='" . htmlspecialchars($recipe['recipe_image']) . "' alt=" . htmlspecialchars($recipe['name']) . " />" .
             "<div class='column-centered'><h4>" . htmlspecialchars($recipe['name']) . "</h4></div></div></a>";
           }
       ?>
