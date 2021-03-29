@@ -1,26 +1,27 @@
 <?php
-  session_start();
-  // if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
-  //    header('Location: signIn.php');
-  //    exit;
-  // }
-  //echo "<pre>" . print_r($_SESSION,1) . "</pre>";
+session_start();
+// if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
+//    header('Location: signIn.php');
+//    exit;
+// }
+//echo "<pre>" . print_r($_SESSION,1) . "</pre>";
 ?>
 <html lang="en">
 <?php include "head.php"; ?>
-  <body>
+
+<body>
   <?php include "navbar.php"; ?>
   <?php
-    require_once 'Dao.php';
-    $dao = new Dao();
-    $recipe = $dao->getRecipe($_GET['id']);
-    $ingredients = $dao->getIngredients($_GET['id']);
+  require_once 'Dao.php';
+  $dao = new Dao();
+  $recipe = $dao->getRecipe($_GET['id']);
+  $ingredients = $dao->getIngredients($_GET['id']);
 
-?>
-    <div class="main">
+  ?>
+  <div class="main">
     <?php
     echo
-      '<div class="recipe">
+    '<div class="recipe">
       <img src="' . htmlspecialchars($recipe['recipe_image']) . '" alt=' . htmlspecialchars($recipe['name']) . ' />
       <h1>' . htmlspecialchars($recipe['name']) . '</h1>
       <p class="notes">' . htmlspecialchars($recipe['notes']) . '</p>
@@ -52,20 +53,22 @@
       </div>
       <h4 class="recipe-info-header">Ingredients</h4>
       <div class="recipe-info">';
-      foreach ($ingredients as $ingredient) {
-        echo
-        '<p>' . htmlspecialchars($ingredient['ingredient']) . '</p>';
-      };
-      echo '</div>
+    foreach ($ingredients as $ingredient) {
+      echo
+      '<p>' . htmlspecialchars($ingredient['ingredient']) . '</p>';
+    };
+    echo '</div>
       <h4 class="recipe-info-header">Directions</h4>
       <div class="recipe-info">
         <p>' . htmlspecialchars($recipe['directions']) . '</p>
       </div>
     </div>';
     ?>
-      <footer>
-          <p>&copy; 2021 Bethany Hull</p>
-      </footer>
-    </div>
-  </body>
+  </div>
+  <footer>
+    <p>&copy; 2021 Bethany Hull</p>
+  </footer>
+
+</body>
+
 </html>
