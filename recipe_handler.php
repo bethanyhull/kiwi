@@ -11,9 +11,6 @@ $cook_time = $_POST['cook-time'];
 $directions = $_POST['directions'];
 $recipe_image = $_POST['recipe_image'];
 
-if($recipe_image == "") {
-    $recipe_image == "/assets/b_w_kiwi.jpeg";
-}
 
 
 // check the email and password

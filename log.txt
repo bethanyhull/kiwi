@@ -1798,3 +1798,160 @@ now - INFO  --> recipes found!Array
  
 now - DEBUG --> Got a connection 
 now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 124 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 124
+    [0] => 124
+    [user_id] => 64
+    [1] => 64
+    [name] => Quick Pickled Onions
+    [2] => Quick Pickled Onions
+    [notes] => This quick pickled red onions recipe is easy to make in just 30 minutes with just 5 ingredients. See notes above for extra seasonings that you are welcome to add in too.
+    [3] => This quick pickled red onions recipe is easy to make in just 30 minutes with just 5 ingredients. See notes above for extra seasonings that you are welcome to add in too.
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 5
+    [5] => 5
+    [cook_time] => 30
+    [6] => 30
+    [directions] => Heat the vinegar mixture. In a small saucepan, stir together the vinegar, water, salt and your desired amount of sweetener. Cook over medium-high heat until the mixture reaches a simmer. (Or alternately, you can heat the mixture in the microwave.)
+Combine in a jar. Place the thinly-sliced onions in a mason jar. Pour the hot vinegar mixture over the onions, screw on the lid, and shake the onions briefly until they are evenly coated with the vinegar mixture.
+Marinate. Let the onions marinate for 30 minutes. (You may need to press the onions down with a spoon so that they are all submerged under the vinegar mixture.)
+Serve. Serve immediately, or refrigerate the onions in a sealed container for up to 2 weeks.
+    [7] => Heat the vinegar mixture. In a small saucepan, stir together the vinegar, water, salt and your desired amount of sweetener. Cook over medium-high heat until the mixture reaches a simmer. (Or alternately, you can heat the mixture in the microwave.)
+Combine in a jar. Place the thinly-sliced onions in a mason jar. Pour the hot vinegar mixture over the onions, screw on the lid, and shake the onions briefly until they are evenly coated with the vinegar mixture.
+Marinate. Let the onions marinate for 30 minutes. (You may need to press the onions down with a spoon so that they are all submerged under the vinegar mixture.)
+Serve. Serve immediately, or refrigerate the onions in a sealed container for up to 2 weeks.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+    [created_at] => 2021-03-30 00:27:35
+    [9] => 2021-03-30 00:27:35
+)
+ 
+now - DEBUG --> Got a connection 

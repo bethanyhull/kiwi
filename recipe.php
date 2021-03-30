@@ -10,6 +10,7 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
 <?php include "head.php"; ?>
 
 <body>
+  <main>
   <?php include "navbar.php"; ?>
   <?php
   require('dao.php');
@@ -65,9 +66,8 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
     </div>';
     ?>
   </div>
-  <footer>
-    <p>&copy; 2021 Bethany Hull</p>
-  </footer>
+  </main>
+  <?php include "footer.php"; ?>
 
 </body>
 

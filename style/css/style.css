@@ -1,8 +1,15 @@
 html, body {
   height: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-.main {
+main {
+  flex: 1 0 auto;
+}
+
+.main, footer {
   margin-left: 300px;
 }
 
@@ -22,6 +29,7 @@ html, body {
   background-size: 100%;
   /* Resize the background image to cover the entire container */
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 .landing .landing-spacer {
@@ -98,7 +106,7 @@ html, body {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 .library .library-top-bar h1 {
   margin-left: 4rem;
@@ -253,12 +261,34 @@ html, body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  padding: 1rem;
+  margin: 1rem;
   object-fit: cover;
 }
 .sidenav h1 {
-  padding: 1rem;
+  padding-top: 2rem;
   color: var(--green);
+  margin-bottom: 0;
+}
+.sidenav .nav-title {
+  text-decoration: none;
+}
+.sidenav a.nav-title {
+  height: fit-content;
+  width: fit-content;
+}
+.sidenav .nav-link {
+  width: 100%;
+  margin: 1rem;
+}
+.sidenav .nav-link a, .sidenav .nav-link button {
+  width: 100%;
+}
+.sidenav li > a:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.page-footer {
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

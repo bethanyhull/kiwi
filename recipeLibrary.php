@@ -9,6 +9,7 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
 <?php include "head.php"; ?>
 
 <body>
+  <main>
   <?php include "navbar.php"; ?>
   <div class="main library">
     <div class="library-top-bar">
@@ -26,14 +27,14 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
       echo
       "<a href='recipe.php?id={$recipe['recipe_id']}'>" .
         "<div class='recipe-card'>" .
-        "<img src='" . htmlspecialchars($recipe['recipe_image']) . "' alt=" . htmlspecialchars($recipe['name']) . " />" .
+        "<img src='" .  htmlspecialchars($recipe['recipe_image']) . "' alt=" . htmlspecialchars($recipe['name']) . " />" .
         "<div class='column-centered'><h4>" . htmlspecialchars($recipe['name']) . "</h4></div></div></a>";
     }
     ?>
+    
   </div>
-  <footer>
-    <p>&copy; 2021 Bethany Hull</p>
-  </footer>
+  </main>
+  <?php include "footer.php"; ?>
 </body>
 
 </html>

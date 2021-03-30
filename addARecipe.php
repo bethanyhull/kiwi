@@ -1,14 +1,15 @@
 <?php
   session_start();
-  // if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
-  //    header('Location: signIn.php');
-  //    exit;
-  // }
-  //echo "<pre>" . print_r($_SESSION,1) . "</pre>";
+  if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
+     header('Location: signIn.php');
+     exit;
+  }
+  // echo "<pre>" . print_r($_SESSION,1) . "</pre>";
 ?>
 <html lang="en">
 <?php include "head.php"; ?>
   <body>
+    <main>
   <?php include "navbar.php"; ?>
     <div class="main add-recipe">
       <form id="recipe-survey-form" method="POST" action="recipe_handler.php" class="recipe">
@@ -61,6 +62,7 @@
             id="ingredient1"
             name="ingredient1"
             class="ingredient"
+            required
           />
         </div>
         <h4 class="recipe-info-header">Directions</h4>
@@ -69,6 +71,7 @@
             id="directions"
             name="directions"
             class="direction"
+            required
           ></textarea>
         </div>
         <h4 class="recipe-info-header">Recipe Image Link</h4>
@@ -82,9 +85,8 @@
         </div>
         <input type="submit" class="btn-large" value="Add recipe" />
       </form>
-      <footer>
-        <p>&copy; 2021 Bethany Hull</p>
-      </footer>
     </div>
+    </main>
+    <?php include "footer.php"; ?>
   </body>
 </html>
