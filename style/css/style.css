@@ -93,7 +93,12 @@ main {
 }
 .register .form-line {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+}
+.register .form-group {
+  margin: 5px;
+  flex-grow: 1;
 }
 
 .library .recipe-cards {
@@ -138,19 +143,20 @@ main {
 }
 
 .recipe {
-  margin: 8rem;
-  height: 100%;
+  margin: 4rem 8rem;
   display: flex;
   flex-direction: column;
 }
 .recipe img {
-  width: 50%;
-  height: auto;
+  width: 25rem;
+  height: 25rem;
   object-fit: cover;
+  align-self: center;
 }
 .recipe h1, .recipe .h1 {
   font-weight: bold;
   font-size: 4.5rem;
+  align-self: center;
 }
 .recipe .notes {
   font-style: italic;
@@ -289,6 +295,10 @@ main {
 
 .page-footer {
   padding: 0;
+}
+
+button.active {
+  background-color: #74741b;
 }
 
 /*# sourceMappingURL=style.css.map */

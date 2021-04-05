@@ -109,8 +109,13 @@ html, body {
     
     .form-line {
         display: flex;
-        justify-content: space-between;
-        
+        justify-content: center;  
+        width: 100%;
+    }
+
+    .form-group {
+        margin: 5px;
+        flex-grow: 1;
     }
   }
 
@@ -169,20 +174,21 @@ html, body {
 
   .recipe {
     
-        margin: 8rem;
-        height: 100%;
+        margin: 4rem 8rem;
         display: flex;
         flex-direction: column;
         
      img {
-        width:50%;
-        height: auto;
+        width:25rem;
+        height: 25rem;
         object-fit:cover;
+        align-self: center;
      } 
       
       h1, .h1{
         font-weight: bold;
         font-size: 4.5rem;
+        align-self: center;
         
       }
       
@@ -355,4 +361,8 @@ html, body {
 
     .page-footer {
         padding: 0;
+    }
+
+    button.active {
+        background-color: darken(#9e9d24, 10%);
     }

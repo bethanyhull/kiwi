@@ -1955,3 +1955,448 @@ Serve. Serve immediately, or refrigerate the onions in a sealed container for up
 )
  
 now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 134 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 134
+    [0] => 134
+    [user_id] => 64
+    [1] => 64
+    [name] => Shrimp Tacos
+    [2] => Shrimp Tacos
+    [notes] => This easy shrimp tacos recipe is made with zesty shrimp, cilantro lime coleslaw, sliced avocado and a spicy chipotle crema.  See notes above for possible recipe variations and shortcuts too.
+    [3] => This easy shrimp tacos recipe is made with zesty shrimp, cilantro lime coleslaw, sliced avocado and a spicy chipotle crema.  See notes above for possible recipe variations and shortcuts too.
+    [servings] => 10
+    [4] => 10
+    [prep_time] => 35
+    [5] => 35
+    [cook_time] => 5
+    [6] => 5
+    [directions] => Prep the slaw and crema: Prepare the cilantro lime slaw according to instructions. Combine all of the chipotle crema ingredients in a blender and pulse until smooth.*
+Cook the shrimp. In a mixing bowl, toss the shrimp with the taco seasoning, plus a generous pinch of salt and black pepper, until evenly coated.  Heat oil in a large non-stick sauté pan over medium-high heat.  Cook the shrimp for 3 to 4 minutes, flipping once, until they are opaque and cooked through.  Transfer to a clean plate and set aside.
+Assemble the tacos: Fill each flour tortillas with a generous serving of the slaw, a few slices of avocado, a few shrimp, a drizzle of chipotle crema and sprinkle of your favorite toppings.
+Serve. Serve warm and enjoy!
+    [7] => Prep the slaw and crema: Prepare the cilantro lime slaw according to instructions. Combine all of the chipotle crema ingredients in a blender and pulse until smooth.*
+Cook the shrimp. In a mixing bowl, toss the shrimp with the taco seasoning, plus a generous pinch of salt and black pepper, until evenly coated.  Heat oil in a large non-stick sauté pan over medium-high heat.  Cook the shrimp for 3 to 4 minutes, flipping once, until they are opaque and cooked through.  Transfer to a clean plate and set aside.
+Assemble the tacos: Fill each flour tortillas with a generous serving of the slaw, a few slices of avocado, a few shrimp, a drizzle of chipotle crema and sprinkle of your favorite toppings.
+Serve. Serve warm and enjoy!
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+    [created_at] => 2021-03-30 00:30:07
+    [9] => 2021-03-30 00:30:07
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 134 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 134
+    [0] => 134
+    [user_id] => 64
+    [1] => 64
+    [name] => Shrimp Tacos
+    [2] => Shrimp Tacos
+    [notes] => This easy shrimp tacos recipe is made with zesty shrimp, cilantro lime coleslaw, sliced avocado and a spicy chipotle crema.  See notes above for possible recipe variations and shortcuts too.
+    [3] => This easy shrimp tacos recipe is made with zesty shrimp, cilantro lime coleslaw, sliced avocado and a spicy chipotle crema.  See notes above for possible recipe variations and shortcuts too.
+    [servings] => 10
+    [4] => 10
+    [prep_time] => 35
+    [5] => 35
+    [cook_time] => 5
+    [6] => 5
+    [directions] => Prep the slaw and crema: Prepare the cilantro lime slaw according to instructions. Combine all of the chipotle crema ingredients in a blender and pulse until smooth.*
+Cook the shrimp. In a mixing bowl, toss the shrimp with the taco seasoning, plus a generous pinch of salt and black pepper, until evenly coated.  Heat oil in a large non-stick sauté pan over medium-high heat.  Cook the shrimp for 3 to 4 minutes, flipping once, until they are opaque and cooked through.  Transfer to a clean plate and set aside.
+Assemble the tacos: Fill each flour tortillas with a generous serving of the slaw, a few slices of avocado, a few shrimp, a drizzle of chipotle crema and sprinkle of your favorite toppings.
+Serve. Serve warm and enjoy!
+    [7] => Prep the slaw and crema: Prepare the cilantro lime slaw according to instructions. Combine all of the chipotle crema ingredients in a blender and pulse until smooth.*
+Cook the shrimp. In a mixing bowl, toss the shrimp with the taco seasoning, plus a generous pinch of salt and black pepper, until evenly coated.  Heat oil in a large non-stick sauté pan over medium-high heat.  Cook the shrimp for 3 to 4 minutes, flipping once, until they are opaque and cooked through.  Transfer to a clean plate and set aside.
+Assemble the tacos: Fill each flour tortillas with a generous serving of the slaw, a few slices of avocado, a few shrimp, a drizzle of chipotle crema and sprinkle of your favorite toppings.
+Serve. Serve warm and enjoy!
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+    [created_at] => 2021-03-30 00:30:07
+    [9] => 2021-03-30 00:30:07
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 144 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 144
+    [0] => 144
+    [user_id] => 64
+    [1] => 64
+    [name] => Cornbread
+    [2] => Cornbread
+    [notes] => My favorite homemade cornbread recipe that’s lightly sweetened with honey, made extra moist with buttermilk, and irresistibly buttery and delicious. Options included below to make this recipe in either a pre-heated cast iron skillet or a basic baking dish.
+    [3] => My favorite homemade cornbread recipe that’s lightly sweetened with honey, made extra moist with buttermilk, and irresistibly buttery and delicious. Options included below to make this recipe in either a pre-heated cast iron skillet or a basic baking dish.
+    [servings] => 16
+    [4] => 16
+    [prep_time] => 15
+    [5] => 15
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Prep the oven and skillet. Heat oven to 400°F.  Add the butter to a 9-inch or 10-inch cast iron skillet, then transfer the skillet to the oven.
+Brown the butter.  While you prepare steps 3 and 4 (below), let the butter melt and simmer in the oven until it is lightly browned and smells toasty, keeping a very close eye on it so that the butter does not accidentally burn.  Use an oven mitt to remove the pan from the oven, then carefully swirl the melted butter to coat the edges of the skillet, and pour the browned butter into a separate bowl until ready to use.  (Or if you’ve already reached step 5, you can go ahead and just pour the browned butter directly into the batter after the buttermilk mixture.)
+Combine the dry ingredients. Meanwhile, in a large mixing bowl, whisk together the flour, cornmeal, baking powder, baking soda and fine sea salt until combined.
+Combine the wet ingredients. In a separate small mixing bowl, whisk together the eggs and honey until evenly combined.  Add the buttermilk and whisk until combined.
+Finish the batter. Create a well in the center of the dry ingredient bowl, and pour the buttermilk mixture into the well.  Gently whisk the dry ingredients into the wet ingredients until just combined.  Pour the melted butter into the batter and stir until it is just combined, taking care not to over-mix the batter.
+Bake. Pour the batter evenly into the cast iron skillet.  Bake for 20 to 25 minutes, until a toothpick inserted in the center of the cornbread comes out clean.
+Cool. Carefully transfer the skillet to a wire cooling rack and let the cornbread cool for at least 10 minutes.  Then slice, serve, and enjoy!
+    [7] => Prep the oven and skillet. Heat oven to 400°F.  Add the butter to a 9-inch or 10-inch cast iron skillet, then transfer the skillet to the oven.
+Brown the butter.  While you prepare steps 3 and 4 (below), let the butter melt and simmer in the oven until it is lightly browned and smells toasty, keeping a very close eye on it so that the butter does not accidentally burn.  Use an oven mitt to remove the pan from the oven, then carefully swirl the melted butter to coat the edges of the skillet, and pour the browned butter into a separate bowl until ready to use.  (Or if you’ve already reached step 5, you can go ahead and just pour the browned butter directly into the batter after the buttermilk mixture.)
+Combine the dry ingredients. Meanwhile, in a large mixing bowl, whisk together the flour, cornmeal, baking powder, baking soda and fine sea salt until combined.
+Combine the wet ingredients. In a separate small mixing bowl, whisk together the eggs and honey until evenly combined.  Add the buttermilk and whisk until combined.
+Finish the batter. Create a well in the center of the dry ingredient bowl, and pour the buttermilk mixture into the well.  Gently whisk the dry ingredients into the wet ingredients until just combined.  Pour the melted butter into the batter and stir until it is just combined, taking care not to over-mix the batter.
+Bake. Pour the batter evenly into the cast iron skillet.  Bake for 20 to 25 minutes, until a toothpick inserted in the center of the cornbread comes out clean.
+Cool. Carefully transfer the skillet to a wire cooling rack and let the cornbread cool for at least 10 minutes.  Then slice, serve, and enjoy!
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+    [created_at] => 2021-03-30 00:32:48
+    [9] => 2021-03-30 00:32:48
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> inserting a new recipe=[Kiwi] 
+now - INFO  --> 64 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id found!Array
+(
+    [recipe_id] => 154
+    [0] => 154
+)
+ 
+now - INFO  --> inserting a new ingredient =[sdfrgfghghjsghgf] 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 154 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 154
+    [0] => 154
+    [user_id] => 64
+    [1] => 64
+    [name] => Kiwi
+    [2] => Kiwi
+    [notes] => ;rlgje;lfj;rlfjawe;erej;wref
+    [3] => ;rlgje;lfj;rlfjawe;erej;wref
+    [servings] => 234
+    [4] => 234
+    [prep_time] => 76
+    [5] => 76
+    [cook_time] => 234
+    [6] => 234
+    [directions] => dflkjfglkaejrglkdrfjglv;kadjfg;lkdfjgldfkgjadl;fkgj
+    [7] => dflkjfglkaejrglkdrfjglv;kadjfg;lkdfjgldfkgjadl;fkgj
+    [recipe_image] => 
+    [8] => 
+    [created_at] => 2021-04-05 02:05:12
+    [9] => 2021-04-05 02:05:12
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 154 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 154
+    [0] => 154
+    [user_id] => 64
+    [1] => 64
+    [name] => Kiwi
+    [2] => Kiwi
+    [notes] => ;rlgje;lfj;rlfjawe;erej;wref
+    [3] => ;rlgje;lfj;rlfjawe;erej;wref
+    [servings] => 234
+    [4] => 234
+    [prep_time] => 76
+    [5] => 76
+    [cook_time] => 234
+    [6] => 234
+    [directions] => dflkjfglkaejrglkdrfjglv;kadjfg;lkdfjgldfkgjadl;fkgj
+    [7] => dflkjfglkaejrglkdrfjglv;kadjfg;lkdfjgldfkgjadl;fkgj
+    [recipe_image] => 
+    [8] => 
+    [created_at] => 2021-04-05 02:05:12
+    [9] => 2021-04-05 02:05:12
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 

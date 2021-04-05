@@ -24,10 +24,16 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
     echo '<div class="recipe-cards">';
 
     foreach ($recipes as $recipe) {
+      if( htmlspecialchars($recipe['recipe_image']) == "") {
+        $image = "/assets/antique-engraving-illustration-kiwi-fruit-collection-hand-draw-vintage-style-black-white-clip-art-isolated_67600-13.jpg";
+      }
+      else {
+        $image = htmlspecialchars($recipe['recipe_image']);
+      }
       echo
       "<a href='recipe.php?id={$recipe['recipe_id']}'>" .
         "<div class='recipe-card'>" .
-        "<img src='" .  htmlspecialchars($recipe['recipe_image']) . "' alt=" . htmlspecialchars($recipe['name']) . " />" .
+        "<img src='" .  $image . "' alt=" . htmlspecialchars($recipe['name']) . " />" .
         "<div class='column-centered'><h4>" . htmlspecialchars($recipe['name']) . "</h4></div></div></a>";
     }
     ?>
