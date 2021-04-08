@@ -2400,3 +2400,1978 @@ now - INFO  --> recipes found!Array
  
 now - DEBUG --> Got a connection 
 now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> inserting a new recipe=[lkj] 
+now - INFO  --> 64 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id found!Array
+(
+    [recipe_id] => 164
+    [0] => 164
+)
+ 
+now - INFO  --> inserting a new ingredient =[lkjlkj] 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 164 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 164
+    [0] => 164
+    [user_id] => 64
+    [1] => 64
+    [name] => lkj
+    [2] => lkj
+    [notes] => 
+    [3] => 
+    [servings] => 2147483647
+    [4] => 2147483647
+    [prep_time] => 987987
+    [5] => 987987
+    [cook_time] => 98798798
+    [6] => 98798798
+    [directions] => lkjlkjlkjlkj
+    [7] => lkjlkjlkjlkj
+    [recipe_image] => 
+    [8] => 
+    [created_at] => 2021-04-05 12:52:25
+    [9] => 2021-04-05 12:52:25
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> inserting a new recipe=[kjhkjhkjh] 
+now - INFO  --> 64 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id found!Array
+(
+    [recipe_id] => 174
+    [0] => 174
+)
+ 
+now - INFO  --> inserting a new ingredient =[lkjhlkjhlkjh] 
+now - DEBUG --> Got a connection 
+now - INFO  --> inserting a new ingredient =[sdfghjkljhgfds] 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 174 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 174
+    [0] => 174
+    [user_id] => 64
+    [1] => 64
+    [name] => kjhkjhkjh
+    [2] => kjhkjhkjh
+    [notes] => kjhkj
+    [3] => kjhkj
+    [servings] => 99
+    [4] => 99
+    [prep_time] => 7898
+    [5] => 7898
+    [cook_time] => 98
+    [6] => 98
+    [directions] => kjh
+    [7] => kjh
+    [recipe_image] => 
+    [8] => 
+    [created_at] => 2021-04-05 12:53:44
+    [9] => 2021-04-05 12:53:44
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 174 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 174
+    [0] => 174
+    [user_id] => 64
+    [1] => 64
+    [name] => kjhkjhkjh
+    [2] => kjhkjhkjh
+    [notes] => kjhkj
+    [3] => kjhkj
+    [servings] => 99
+    [4] => 99
+    [prep_time] => 7898
+    [5] => 7898
+    [cook_time] => 98
+    [6] => 98
+    [directions] => kjh
+    [7] => kjh
+    [recipe_image] => 
+    [8] => 
+    [created_at] => 2021-04-05 12:53:44
+    [9] => 2021-04-05 12:53:44
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [user_id] => 64
+    [0] => 64
+    [email] => user@test.com
+    [1] => user@test.com
+    [name] => User
+    [2] => User
+    [password] => 12345
+    [3] => 12345
+    [user_image] => 
+    [4] => 
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 124 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 124
+    [0] => 124
+    [user_id] => 64
+    [1] => 64
+    [name] => Quick Pickled Onions
+    [2] => Quick Pickled Onions
+    [notes] => This quick pickled red onions recipe is easy to make in just 30 minutes with just 5 ingredients. See notes above for extra seasonings that you are welcome to add in too.
+    [3] => This quick pickled red onions recipe is easy to make in just 30 minutes with just 5 ingredients. See notes above for extra seasonings that you are welcome to add in too.
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 5
+    [5] => 5
+    [cook_time] => 30
+    [6] => 30
+    [directions] => Heat the vinegar mixture. In a small saucepan, stir together the vinegar, water, salt and your desired amount of sweetener. Cook over medium-high heat until the mixture reaches a simmer. (Or alternately, you can heat the mixture in the microwave.)
+Combine in a jar. Place the thinly-sliced onions in a mason jar. Pour the hot vinegar mixture over the onions, screw on the lid, and shake the onions briefly until they are evenly coated with the vinegar mixture.
+Marinate. Let the onions marinate for 30 minutes. (You may need to press the onions down with a spoon so that they are all submerged under the vinegar mixture.)
+Serve. Serve immediately, or refrigerate the onions in a sealed container for up to 2 weeks.
+    [7] => Heat the vinegar mixture. In a small saucepan, stir together the vinegar, water, salt and your desired amount of sweetener. Cook over medium-high heat until the mixture reaches a simmer. (Or alternately, you can heat the mixture in the microwave.)
+Combine in a jar. Place the thinly-sliced onions in a mason jar. Pour the hot vinegar mixture over the onions, screw on the lid, and shake the onions briefly until they are evenly coated with the vinegar mixture.
+Marinate. Let the onions marinate for 30 minutes. (You may need to press the onions down with a spoon so that they are all submerged under the vinegar mixture.)
+Serve. Serve immediately, or refrigerate the onions in a sealed container for up to 2 weeks.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+    [created_at] => 2021-03-30 00:27:35
+    [9] => 2021-03-30 00:27:35
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [0] => 114
+    [user_id] => 64
+    [1] => 64
+    [name] => Healthy Zucchini Muffins
+    [2] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [3] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [4] => 12
+    [prep_time] => 10
+    [5] => 10
+    [cook_time] => 20
+    [6] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [7] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [8] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+    [9] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [ingredient] => 1 2/3 cups white whole wheat flour (or all-purpose flour)
+)
+ 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [user_id] => 64
+    [name] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [prep_time] => 10
+    [cook_time] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [ingredient] => 1 2/3 cups white whole wheat flour (or all-purpose flour)
+)
+ 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [user_id] => 64
+    [name] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [prep_time] => 10
+    [cook_time] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [ingredient] => 1 2/3 cups white whole wheat flour (or all-purpose flour)
+    [0] => 1 2/3 cups white whole wheat flour (or all-purpose flour)
+)
+ 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [user_id] => 64
+    [name] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [prep_time] => 10
+    [cook_time] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!PDOStatement Object
+(
+    [queryString] => select ingredient from ingredients where recipe_id = 114
+)
+ 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [user_id] => 64
+    [name] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [prep_time] => 10
+    [cook_time] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [ingredient] => 1 2/3 cups white whole wheat flour (or all-purpose flour)
+            [0] => 1 2/3 cups white whole wheat flour (or all-purpose flour)
+        )
+
+    [1] => Array
+        (
+            [ingredient] => 1 teaspoon baking powder
+            [0] => 1 teaspoon baking powder
+        )
+
+    [2] => Array
+        (
+            [ingredient] => 1 teaspoon baking soda
+            [0] => 1 teaspoon baking soda
+        )
+
+    [3] => Array
+        (
+            [ingredient] => 1 teaspoon ground cinnamon
+            [0] => 1 teaspoon ground cinnamon
+        )
+
+    [4] => Array
+        (
+            [ingredient] => 1/2 teaspoon salt
+            [0] => 1/2 teaspoon salt
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - INFO  --> recipe_id = 154 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 154
+    [user_id] => 64
+    [name] => Kiwi
+    [notes] => ;rlgje;lfj;rlfjawe;erej;wref
+    [servings] => 234
+    [prep_time] => 76
+    [cook_time] => 234
+    [directions] => dflkjfglkaejrglkdrfjglv;kadjfg;lkdfjgldfkgjadl;fkgj
+    [recipe_image] => 
+    [created_at] => 2021-04-05 02:05:12
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - INFO  --> recipe_id = 154 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 154
+    [user_id] => 64
+    [name] => Kiwi
+    [notes] => ;rlgje;lfj;rlfjawe;erej;wref
+    [servings] => 234
+    [prep_time] => 76
+    [cook_time] => 234
+    [directions] => dflkjfglkaejrglkdrfjglv;kadjfg;lkdfjgldfkgjadl;fkgj
+    [recipe_image] => 
+    [created_at] => 2021-04-05 02:05:12
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [0] => Array
+        (
+            [recipe_id] => 114
+            [0] => 114
+            [name] => Healthy Zucchini Muffins
+            [1] => Healthy Zucchini Muffins
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+        )
+
+    [1] => Array
+        (
+            [recipe_id] => 124
+            [0] => 124
+            [name] => Quick Pickled Onions
+            [1] => Quick Pickled Onions
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2019/08/How-To-Make-Pickled-Red-Onions-Recipe-2.jpg
+        )
+
+    [2] => Array
+        (
+            [recipe_id] => 134
+            [0] => 134
+            [name] => Shrimp Tacos
+            [1] => Shrimp Tacos
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2020/04/Shrimp-Tacos-Recipe-1.jpg
+        )
+
+    [3] => Array
+        (
+            [recipe_id] => 144
+            [0] => 144
+            [name] => Cornbread
+            [1] => Cornbread
+            [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+            [2] => https://www.gimmesomeoven.com/wp-content/uploads/2021/01/Buttermilk-Cornbread-Recipe-2-1.jpg
+        )
+
+    [4] => Array
+        (
+            [recipe_id] => 154
+            [0] => 154
+            [name] => Kiwi
+            [1] => Kiwi
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [5] => Array
+        (
+            [recipe_id] => 164
+            [0] => 164
+            [name] => lkj
+            [1] => lkj
+            [recipe_image] => 
+            [2] => 
+        )
+
+    [6] => Array
+        (
+            [recipe_id] => 174
+            [0] => 174
+            [name] => kjhkjhkjh
+            [1] => kjhkjhkjh
+            [recipe_image] => 
+            [2] => 
+        )
+
+)
+ 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [user_id] => 64
+    [name] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [prep_time] => 10
+    [cook_time] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipe_id = 114 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+    [recipe_id] => 114
+    [user_id] => 64
+    [name] => Healthy Zucchini Muffins
+    [notes] => This healthy zucchini muffins recipe is made with whole wheat flour, it’s naturally sweetened with maple syrup, and it’s a delicious way to use up extra zucchini!
+    [servings] => 12
+    [prep_time] => 10
+    [cook_time] => 20
+    [directions] => Heat oven to 350°F.  Prepare a 12-cup muffin pan by either greasing it with cooking spray or lining the cups with paper liners.  Set aside.
+In a large mixing bowl, whisk together flour, baking powder, baking soda, cinnamon and salt until combined.  Set aside.
+In a separate mixing bowl, whisk together egg, maple syrup, milk, coconut oil and vanilla extract until combined.  Pour this mixture into the dry ingredient mixture, and stir with a spoon until just combined.  (Do not overmix.)  Stir in the zucchini and oats until just combined.
+Portion the batter evenly between 12 baking cups.  Then sprinkle extra oats on top of each, if desired.  Bake for 18-20 minutes, or until a toothpick inserted in the center of the muffin comes out clean.  Transfer pan to a cooling rack, then serve the muffins warm.  Or let cool to room temperature, then store in a sealed container for up to 2 days, or freeze.
+    [recipe_image] => https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Zucchini-Muffins-9.jpg
+    [created_at] => 2021-03-30 00:24:32
+)
+ 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> email not found 
+now - INFO  --> inserting a new user name=[Bethany Rachael Hull], email=[user1@test.com] 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> email not found 
+now - INFO  --> inserting a new user name=[Bethany Rachael Hull], email=[user2@test.com] 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 84
+            [0] => 84
+            [email] => user2@test.com
+            [1] => user2@test.com
+            [name] => Bethany Rachael Hull
+            [2] => Bethany Rachael Hull
+            [password] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [3] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 84
+            [0] => 84
+            [email] => user2@test.com
+            [1] => user2@test.com
+            [name] => Bethany Rachael Hull
+            [2] => Bethany Rachael Hull
+            [password] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [3] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  -->  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 84
+            [0] => 84
+            [email] => user2@test.com
+            [1] => user2@test.com
+            [name] => Bethany Rachael Hull
+            [2] => Bethany Rachael Hull
+            [password] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [3] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  -->  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 84
+            [0] => 84
+            [email] => user2@test.com
+            [1] => user2@test.com
+            [name] => Bethany Rachael Hull
+            [2] => Bethany Rachael Hull
+            [password] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [3] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> user found!Array
+(
+    [user_id] => 84
+    [0] => 84
+    [email] => user2@test.com
+    [1] => user2@test.com
+    [name] => Bethany Rachael Hull
+    [2] => Bethany Rachael Hull
+    [password] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+    [3] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+    [user_image] => 
+    [4] => 
+)
+ 
+now - INFO  --> $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj. 
+now - INFO  -->  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 84
+            [0] => 84
+            [email] => user2@test.com
+            [1] => user2@test.com
+            [name] => Bethany Rachael Hull
+            [2] => Bethany Rachael Hull
+            [password] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [3] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> user found!Array
+(
+    [user_id] => 84
+    [0] => 84
+    [email] => user2@test.com
+    [1] => user2@test.com
+    [name] => Bethany Rachael Hull
+    [2] => Bethany Rachael Hull
+    [password] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+    [3] => $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj.
+    [user_image] => 
+    [4] => 
+)
+ 
+now - INFO  --> $2y$10$FwoQcM69uqGXj.M5YA3UGOZsFGp9QOgTCy3laz6hMj. 
+now - INFO  -->  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> email found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Array
+(
+    [authenticated] => 
+    [user_id] => 
+    [user_name] => 
+    [errors] => Array
+        (
+            [email_found] => 1
+        )
+
+    [register] => Array
+        (
+            [email] => user2@test.com
+            [name] => Bethany Rachael Hull
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> email not found 
+now - INFO  --> inserting a new user name=[Bethany Rachael Hull], email=[b@h.com] 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 94
+            [0] => 94
+            [email] => b@h.com
+            [1] => b@h.com
+            [name] => Bethany Rachael Hull
+            [2] => Bethany Rachael Hull
+            [password] => $2y$10$SdMxYvM2WVyZ2EpdLVDcJORp5GVmHH203plcMVJc4HC
+            [3] => $2y$10$SdMxYvM2WVyZ2EpdLVDcJORp5GVmHH203plcMVJc4HC
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> user found!Array
+(
+    [user_id] => 94
+    [0] => 94
+    [email] => b@h.com
+    [1] => b@h.com
+    [name] => Bethany Rachael Hull
+    [2] => Bethany Rachael Hull
+    [password] => $2y$10$SdMxYvM2WVyZ2EpdLVDcJORp5GVmHH203plcMVJc4HC
+    [3] => $2y$10$SdMxYvM2WVyZ2EpdLVDcJORp5GVmHH203plcMVJc4HC
+    [user_image] => 
+    [4] => 
+)
+ 
+now - INFO  --> $2y$10$SdMxYvM2WVyZ2EpdLVDcJORp5GVmHH203plcMVJc4HC 
+now - INFO  -->  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> email not found 
+now - INFO  --> inserting a new user name=[Bethany Rachael Hull], email=[be@h.com] 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 104
+            [0] => 104
+            [email] => be@h.com
+            [1] => be@h.com
+            [name] => Bethany Rachael Hull
+            [2] => Bethany Rachael Hull
+            [password] => $2y$10$qMT0wRZjyci5Pt/Ihj7Zlu67xzIaRXxRB4GmkPajVMl
+            [3] => $2y$10$qMT0wRZjyci5Pt/Ihj7Zlu67xzIaRXxRB4GmkPajVMl
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> user found!Array
+(
+    [user_id] => 104
+    [0] => 104
+    [email] => be@h.com
+    [1] => be@h.com
+    [name] => Bethany Rachael Hull
+    [2] => Bethany Rachael Hull
+    [password] => $2y$10$qMT0wRZjyci5Pt/Ihj7Zlu67xzIaRXxRB4GmkPajVMl
+    [3] => $2y$10$qMT0wRZjyci5Pt/Ihj7Zlu67xzIaRXxRB4GmkPajVMl
+    [user_image] => 
+    [4] => 
+)
+ 
+now - INFO  --> $2y$10$qMT0wRZjyci5Pt/Ihj7Zlu67xzIaRXxRB4GmkPajVMl 
+now - INFO  -->  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> email found!Array
+(
+    [total] => 1
+    [0] => 1
+)
+ 
+now - DEBUG --> Array
+(
+    [errors] => Array
+        (
+            [email_found] => 1
+        )
+
+    [register] => Array
+        (
+            [email] => beth@gmail.com
+            [name] => Bethany Hull
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> email not found 
+now - INFO  --> inserting a new user name=[Bethany Hull], email=[be@gmail.com] 
+now - DEBUG --> Got a connection 
+now - DEBUG --> Got a connection 
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> check rows!Array
+(
+    [0] => Array
+        (
+            [user_id] => 114
+            [0] => 114
+            [email] => be@gmail.com
+            [1] => be@gmail.com
+            [name] => Bethany Hull
+            [2] => Bethany Hull
+            [password] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [3] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> check rows!Array
+(
+    [0] => Array
+        (
+            [user_id] => 114
+            [0] => 114
+            [email] => be@gmail.com
+            [1] => be@gmail.com
+            [name] => Bethany Hull
+            [2] => Bethany Hull
+            [password] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [3] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> check rows!  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> check rows!Array
+(
+    [0] => Array
+        (
+            [user_id] => 114
+            [0] => 114
+            [email] => be@gmail.com
+            [1] => be@gmail.com
+            [name] => Bethany Hull
+            [2] => Bethany Hull
+            [password] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [3] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> check rows!  
+now - INFO  --> user not found 
+now - DEBUG --> Got a connection 
+now - INFO  --> check rows!Array
+(
+    [0] => Array
+        (
+            [user_id] => 114
+            [0] => 114
+            [email] => be@gmail.com
+            [1] => be@gmail.com
+            [name] => Bethany Hull
+            [2] => Bethany Hull
+            [password] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [3] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - INFO  --> user found!Array
+(
+    [0] => Array
+        (
+            [user_id] => 114
+            [0] => 114
+            [email] => be@gmail.com
+            [1] => be@gmail.com
+            [name] => Bethany Hull
+            [2] => Bethany Hull
+            [password] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [3] => aaa1db80ca94cb6a2aa3fa58b225bd45ca0fd9756783cdb0756562252079554e
+            [user_image] => 
+            [4] => 
+        )
+
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> recipes found!Array
+(
+)
+ 
+now - DEBUG --> Got a connection 
+now - INFO  --> check rows!Array
+(
+)
+ 
+now - INFO  --> user not found 

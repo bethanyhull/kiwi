@@ -296,6 +296,10 @@ main {
 .page-footer {
   padding: 0;
 }
+.page-footer i {
+  font-size: 1.6rem;
+  margin: 0 0.5rem;
+}
 
 button.active {
   background-color: #74741b;

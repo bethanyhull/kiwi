@@ -13,11 +13,6 @@ public $user = 'bf02553f992ce2';
 public $password = 'db53a9f8';
 public $db = 'heroku_319ce41dbdbdac8';
 
-// data for test database
-  // public $server = 'localhost';
-  // public $db = 'kiwi';
-  // public $user = 'root';
-  // public $password = "root";
 
 
   public $dsn;
@@ -50,16 +45,16 @@ public $db = 'heroku_319ce41dbdbdac8';
     try {
       $q = $connection->prepare("select * from users where email = :email and password = :password");
       $q->bindParam(":email", $email);
-      $q->bindParam(":password", $password);
+      $q->bindParam(":password", hash("sha256", $password . "fKd93Vmz!k*dAv5029Vkf9$3Aa"));
       $q->execute();
-      $row = $q->fetch();
-      if ($row) {
-        $this->logger->LogInfo("user found!" . print_r($row, 1));
-        return $row;
-      } else {
+      $row = $q->fetchAll();
+      if (count($row) > 0) {
+        $this->logger->LogInfo("user found!" . print_r($row['email'],1));
+        return true;
+      }
         $this->logger->LogInfo("user not found");
         return false;
-      }
+  
     } catch (Exception $e) {
       $this->logger->LogError($e);
       exit;
@@ -87,15 +82,6 @@ public $db = 'heroku_319ce41dbdbdac8';
     }
   }
 
-  public function deleteComment($id)
-  {
-    $this->logger->LogInfo("deleting comment id [{$id}]");
-    $conn = $this->getConnection();
-    $deleteQuery = "delete from comment where comment_id = :id";
-    $q = $conn->prepare($deleteQuery);
-    $q->bindParam(":id", $id);
-    $q->execute();
-  }
 
   public function insertUser($email, $name, $password)
   {
@@ -105,7 +91,7 @@ public $db = 'heroku_319ce41dbdbdac8';
     $q = $conn->prepare($saveQuery);
     $q->bindParam(":email", $email);
     $q->bindParam(":name", $name);
-    $q->bindParam(":password", $password);
+    $q->bindParam(":password", hash("sha256", $password . "fKd93Vmz!k*dAv5029Vkf9$3Aa"));
     $q->execute();
   }
 
@@ -128,29 +114,6 @@ public $db = 'heroku_319ce41dbdbdac8';
 
   }
 
-  public function mostRecentRecipe($user_id)
-  {
-    $connection = $this->getConnection();
-    try {
-      $q = $connection->prepare("select count(*) as total from users where email = :email and password = :password");
-      $q->bindParam(":email", $email);
-      $q->bindParam(":password", $password);
-      $q->execute();
-      $row = $q->fetch();
-      if ($row['total'] == 1) {
-        $this->logger->LogInfo("user found!" . print_r($row, 1));
-        return true;
-      } else {
-        $this->logger->LogInfo("user not found");
-        return false;
-      }
-    } catch (Exception $e) {
-      $this->logger->LogError($e);
-      exit;
-    }
-  }
-
-  
 
   public function insertIngredient($ingredient, $recipe_id)
   {
@@ -163,25 +126,16 @@ public $db = 'heroku_319ce41dbdbdac8';
     $q->execute();
   }
 
-  public function getComments()
-  {
-    $connection = $this->getConnection();
-    try {
-      $rows = $connection->query("select name, comment_id, comment, date_entered from comment order by date_entered desc", PDO::FETCH_ASSOC);
-      
-    } catch (Exception $e) {
-      echo print_r($e, 1);
-      exit;
-    }
-    return $rows;
-  }
 
 public function getRecipeLibrary($user_id)
 {
   $connection = $this->getConnection();
   try {
-    $rows = $connection->query("select recipe_id, name, recipe_image from recipes where user_id = $user_id", PDO::FETCH_ASSOC);
-    
+    $q = $connection->prepare("select recipe_id, name, recipe_image from recipes where user_id = :user_id");
+    $q->bindParam(":user_id", $user_id);
+    $q->execute();
+    $rows = $q->fetchAll();
+    $this->logger->LogInfo("recipes found!" . print_r($rows, 1));
   } catch (Exception $e) {
     echo print_r($e, 1);
     exit;
@@ -193,7 +147,10 @@ public function getIngredients($recipe_id)
 {
   $connection = $this->getConnection();
   try {
-    $rows = $connection->query("select ingredient from ingredients where recipe_id = $recipe_id", PDO::FETCH_ASSOC);
+    $q = $connection->prepare("select ingredient from ingredients where recipe_id = :recipe_id");
+    $q->bindParam(":recipe_id", $recipe_id);
+    $q->execute();
+    $rows = $q->fetchAll();
   } catch (Exception $e) {
     echo print_r($e, 1);
     exit;
@@ -210,7 +167,7 @@ public function getRecipe($recipe_id)
     $q = $connection->prepare("select * from recipes where recipe_id = :recipe_id");
     $q->bindParam(":recipe_id", $recipe_id);
     $q->execute();
-    $rows = $q->fetch();
+    $rows = $q->fetch(PDO::FETCH_ASSOC);
     $this->logger->LogInfo("recipes found!" . print_r($rows, 1));
   } catch (Exception $e) {
     echo print_r($e, 1);
@@ -235,21 +192,4 @@ public function getRecentRecipeID($user_id)
   return $rows['recipe_id'];
 }
 
-
-// public function getRecipeLibrary($user_id)
-// {
-//   $this->logger->LogInfo("user_id = " . $user_id);
-//   $connection = $this->getConnection();
-//   try {
-//     $q = $connection->prepare("select recipe_id, name, recipe_image from recipes where user_id = :user_id");
-//     $q->bindParam(":user_id", $user_id);
-//     $q->execute();
-//     $rows = $q->fetch();
-//     $this->logger->LogInfo("recipes found!" . print_r($rows, 1));
-//   } catch (Exception $e) {
-//     echo print_r($e, 1);
-//     exit;
-//   }
-//   return $rows;
-// }
 }

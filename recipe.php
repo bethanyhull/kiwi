@@ -39,18 +39,15 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
       $totalminutes = $totalminutes % 60;
     }
 
-    if( htmlspecialchars($recipe['recipe_image']) == "") {
-      $image = "/assets/antique-engraving-illustration-kiwi-fruit-collection-hand-draw-vintage-style-black-white-clip-art-isolated_67600-13.jpg";
-    }
-    else {
-      $image = htmlspecialchars($recipe['recipe_image']);
-    }
-
-
+  
     echo
-    '<div class="recipe">
-      <img src="' . $image . '" alt=' . htmlspecialchars($recipe['name']) . ' />
-      <h1>' . htmlspecialchars($recipe['name']) . '</h1>
+    '<div class="recipe">';
+
+    if( htmlspecialchars($recipe['recipe_image']) != "") {
+      echo '<img src="' . htmlspecialchars($recipe['recipe_image']) . '" alt=' . htmlspecialchars($recipe['name']) . ' />';
+    }
+      
+      echo '<h1>' . htmlspecialchars($recipe['name']) . '</h1>
       <p class="notes">' . htmlspecialchars($recipe['notes']) . '</p>
       <div class="info-bar">
        <div class="info-box">
