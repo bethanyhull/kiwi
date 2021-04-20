@@ -49,12 +49,14 @@ public $db = 'heroku_319ce41dbdbdac8';
       $q->execute();
       $row = $q->fetchAll();
       if (count($row) > 0) {
-        $this->logger->LogInfo("user found!" . print_r($row['email'],1));
-        return true;
-      }
+
+        $this->logger->LogInfo("user found!" . print_r($row, 1));
+		return $row;
+        
+      } else {
         $this->logger->LogInfo("user not found");
         return false;
-  
+      }
     } catch (Exception $e) {
       $this->logger->LogError($e);
       exit;
@@ -98,7 +100,7 @@ public $db = 'heroku_319ce41dbdbdac8';
   public function insertRecipe($user_id, $name, $notes, $servings, $prep_time, $cook_time, $directions, $recipe_image)
   {
     $this->logger->LogInfo("inserting a new recipe=[{$name}]");
-    $this->logger->LogInfo($user_id);
+    $this->logger->LogInfo("USer ID = " . $user_id);
     $conn = $this->getConnection();
     $saveQuery = "INSERT INTO recipes (user_id, name, notes, servings, prep_time, cook_time, directions, recipe_image) values (:user_id, :name, :notes, :servings, :prep_time, :cook_time, :directions, :recipe_image)";
     $q = $conn->prepare($saveQuery);
@@ -176,6 +178,7 @@ public function getRecipe($recipe_id)
   return $rows;
 }
 
+
 public function getRecentRecipeID($user_id)
 {
   $connection = $this->getConnection();
@@ -193,3 +196,4 @@ public function getRecentRecipeID($user_id)
 }
 
 }
+

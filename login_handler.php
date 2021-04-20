@@ -11,8 +11,8 @@
 
   if ($row != false) {
    $_SESSION['authenticated'] = true;
-   $_SESSION['user_id'] = $row['user_id'];
-   $_SESSION['user_name'] = $row['name'];
+   $_SESSION['user_id'] = $row[0]['user_id'];
+   $_SESSION['user_name'] = $row[0]['name'];
      header('Location: recipeLibrary.php');
      exit;
   } else {

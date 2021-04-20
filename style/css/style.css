@@ -231,6 +231,7 @@ main {
   align-self: flex-start;
 }
 .add-recipe .recipe-info {
+  width: 100%;
   align-self: flex-start;
 }
 .add-recipe .ingredient-title {
